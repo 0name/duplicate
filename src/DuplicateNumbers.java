@@ -2,7 +2,8 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class DuplicateNumbers {
-
+//  Пользователь вводит набор чисел в виде одной строки.
+//  Избавиться от повторяющихся элементов в строке и вывести результат на экран
     public void DuplicateNumbers(){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter numbers");
