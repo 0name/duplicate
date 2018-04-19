@@ -8,5 +8,6 @@ public class Polindrom {
         System.out.println("Enter words");
         String st = scan.nextLine();
         System.out.println("Entered words:\n" + st);
+
     }
 }

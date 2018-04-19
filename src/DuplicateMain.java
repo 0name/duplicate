@@ -4,7 +4,8 @@ public class DuplicateMain {
         dup.DuplicateNumbers();
 
         DuplicateNumbersCount dupNCo = new DuplicateNumbersCount();
-//        dupNCo.DuplicateNumbersCount();
+        dupNCo.DuplicateNumbersCount(dup.getStr());
+
 
         Polindrom pol = new Polindrom();
         pol.Polindrom();
