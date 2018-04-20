@@ -6,8 +6,7 @@ public class DuplicateMain {
         DuplicateNumbersCount dupNCo = new DuplicateNumbersCount();
         dupNCo.DuplicateNumbersCount(dup.getStr());
 
-
-        Polindrom pol = new Polindrom();
-        pol.Polindrom();
+//        Polindrom pol = new Polindrom();
+//        pol.Polindrom();
     }
 }
