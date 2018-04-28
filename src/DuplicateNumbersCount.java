@@ -16,6 +16,7 @@ public class DuplicateNumbersCount extends DuplicateNumbers{ // наследуе
             }
 
         for(Map.Entry<String, Integer> entry : hashM.entrySet()) {
+            if (entry.getValue()>1)
             System.out.println("Number " + entry.getKey()+ " is repeated " + entry.getValue() + " times");
         }
     }
